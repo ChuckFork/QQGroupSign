@@ -44,7 +44,7 @@ namespace QQGroupSign
 
         private void GetQQGroups()
         {
-            var uid = _cookieDictionary["uin_cookie"];
+            var uid = _cookieDictionary["uin"];
             var skey = _cookieDictionary["skey"];
             var gtk = GetGtk(skey);
 
