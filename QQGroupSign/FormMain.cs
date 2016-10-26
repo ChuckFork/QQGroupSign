@@ -23,6 +23,7 @@ namespace QQGroupSign
 
         private void FormMain_Load(object sender, EventArgs e)
         {
+            txtResult.ScrollBars = ScrollBars.Vertical;
             wb.Navigate(LoginUrl);
         }
 
